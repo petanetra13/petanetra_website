@@ -1,0 +1,54 @@
+.titleTesti, .titleTestiBold{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 61px;
+    text-align: right;
+    color: #1E1B61;
+}
+.titleTestiBold{
+    font-weight: 700;
+}
+.cardTesti{
+    min-height: 200px;
+    background: #FDFDFF;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px 7px rgba(88, 83, 190, 0.25);
+}
+.testi{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #030309;
+}
+.name{
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #1E1B61;
+}
+.openquote, .closequote{
+    position: absolute;
+    width: 50px;
+    z-index: 999;
+}
+.openquote{
+    top: 0px;
+    left: 70px;
+}
+.closequote{
+    bottom: 10px;
+    right: 80px;
+}
+@media(max-width:768px){
+    .titleTesti{
+        text-align: center;
+    }
+}

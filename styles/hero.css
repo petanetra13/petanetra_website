@@ -1,0 +1,105 @@
+.hero-wrapper{
+    padding: 0;
+    background: url('/images/hero-bg.png');
+    background-size: cover;
+    background-position: bottom;
+}
+.hero-title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 150%;
+    color: #F9F9FB;
+    padding-left: 20%;
+}
+.hero-text{ 
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 150%;
+    color: #F9F9FB;
+    padding-left: 20%;  
+    padding-right: 14%;
+}
+.hero-download-wrapper{
+    padding-left: 20%;
+}
+.hero-download{
+    width: 13vw;
+    height: 4.6vw;
+}
+.hero-right{
+    padding-top: 12%;
+    align-self: baseline;
+}
+@media(max-width:1024px){
+    .hero-left{
+        padding-top: 15%;
+    }
+    .hero-title, .hero-download-wrapper{
+        padding-left: 10%;
+    }
+    .hero-text{
+        font-size: 16px;
+        line-height: 150%;
+        padding-left: 10%;
+    }
+}
+@media(max-width:768px){
+    .hero-text, .hero-title, .hero-download-wrapper{
+        padding-left: 7.5%;
+        padding-right: 0;
+    }
+    .hero-title{
+        font-size: 32px;
+    }
+    .hero-text{
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .hero-download{
+        width: 150px;
+        height: 54px;
+    }
+}
+@media(max-width:576px){
+    .hero-text, .hero-title, .hero-download-wrapper{
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+    .hero-download{
+        width: 170px;
+        height: 60px;
+    }
+    .hero-left{
+        padding-top: 30%;
+    }
+    .hero-title{
+        font-size: 42px;
+    }
+    .hero-text{
+        font-size: 18px;
+        line-height: 150%;
+    }
+    .hero-right{
+        padding-top: 15%;
+    }
+}
+@media(max-width:320px){
+    .hero-text, .hero-title, .hero-download-wrapper{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .hero-title{
+        font-size: 32px;
+    }
+    .hero-text{
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .hero-download{
+        width: 150px;
+        height: 54px;
+    }
+}

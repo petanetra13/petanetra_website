@@ -1,0 +1,22 @@
+iframe{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 20px;
+}
+.video-title{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2.5rem;
+    line-height: 150%;
+    color: #1E1B61;
+}
+/* @media(max-width:1024px){
+    iframe{
+        width: 70vw;
+    }
+}
+@media(max-width:576px){
+    iframe{
+        width: 90vw;
+    }
+} */
